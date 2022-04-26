@@ -231,10 +231,6 @@ sub {
   bottom: -0.25em;
 }
 
-#about{
-  height: 100vh;
-}
-
 sup {
   top: -0.5em;
 }
@@ -11433,7 +11429,6 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  height: 100vh;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;

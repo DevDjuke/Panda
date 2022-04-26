@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
+        <div class="container min-vh-100">
             <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>

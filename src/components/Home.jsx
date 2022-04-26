@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-      <header class="masthead bg-primary text-white text-center">
+      <header class="masthead bg-primary text-white text-center min-vh-100">
             <div class="container d-flex align-items-center flex-column">
                 <img class="masthead-avatar mb-5" src="./logo601.png" alt="..." />
                 <h1 class="masthead-heading text-uppercase mb-0">PANDAMONIUM LABS</h1>
