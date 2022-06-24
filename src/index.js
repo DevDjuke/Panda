@@ -8,8 +8,7 @@ import {
   Navigation,
   Portfolio,
   Home,
-  About,
-  Contact
+  About
 } from "./components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,7 +20,6 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>
   </React.StrictMode>

@@ -1,20 +1,42 @@
 import React from "react";
+import { TwitterTimelineEmbed} from 'react-twitter-embed';
 
 function Portfolio() {
   return (
-    <div className="portfolio">
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column min-vh-100">
-                <img class="masthead-avatar-2 mb-5" src="./wheelbarrow.png" alt="..." />
-                <h1 class="masthead-heading text-uppercase mb-0">UNDER CONSTRUCTION</h1>
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+    <div className="portfolio content">
+      <div class="container d-flex align-items-left flex-column">
+        <div class="row">
+          <div class="col-lg-9 top">
+            <div class="row mt-3">
+                <h5>Video Games</h5>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 border-top"></div>
+                <div class="row">
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-2">
+                    <img class="port-img" src="../portfolio/cultist.png" alt="cult"></img>
+                    <h6 class="port-title">Cult</h6>
+                  </div>
                 </div>
-                <p class="masthead-subheading font-weight-light mb-0">Soon there will be things here.</p>
             </div>
-        </header>
+            <div class="row mt-5">
+                <h5>Dungeons and Dragons</h5>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 border-top"></div>
+                <div class="row">
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-2">
+                    <img class="port-img" src="../portfolio/evil-book.png" alt="book"></img>
+                    <h6 class="port-title">Balathor's Book of Beastly Beginnings</h6>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <TwitterTimelineEmbed sourceType="profile" screenName="pandamoniumlabs" theme="dark" tweetLimit={5}/>
+          </div>
+        </div>
+      </div>
       </div>
   );
 }
