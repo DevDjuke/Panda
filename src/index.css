@@ -33,6 +33,11 @@
 .port-img{
   width: 10vw;
   margin-top:10px;
+  
+}
+.port-img:hover{
+  cursor: pointer;
+  filter: opacity(50%);
 }
 
 .port-title{

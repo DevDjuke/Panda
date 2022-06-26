@@ -31,6 +31,18 @@ function Portfolio() {
                   </div>
                 </div>
             </div>
+            <div class="row mt-5">
+                <h5>Digital Tools</h5>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 border-top"></div>
+                <div class="row">
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-2">
+                    <img class="port-img" src="../portfolio/files.png" alt="book"></img>
+                    <h6 class="port-title">Appear</h6>
+                  </div>
+                </div>
+            </div>
           </div>
           <div class="col-lg-3">
             <TwitterTimelineEmbed sourceType="profile" screenName="pandamoniumlabs" theme="dark" tweetLimit={5}/>
