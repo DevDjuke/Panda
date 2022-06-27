@@ -30,19 +30,61 @@
   background: #555; 
 }
 
+.article{
+  padding-top: 22vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  font-size: large;
+}
+
+.link_proj{
+  text-align: center;
+  text-decoration: underline;
+  color: var(--cultured);
+}
+
+.link_proj:hover{
+  color: var(--rose-taupe);
+}
+
 .port-img{
-  width: 10vw;
+  width: 8vw;
+  height: 8vw;
   margin-top:10px;
-  
+  background-size: contain;
 }
 .port-img:hover{
   cursor: pointer;
-  filter: opacity(50%);
+  opacity: 80%;
+}
+
+#cult{
+  background-image: url("./portfolio/cultist.png"); 
+}
+
+#cult:hover{
+  background-image: url("./portfolio/cultist-hover.png");
+}
+
+#balathor{
+  background-image: url("./portfolio/evil-book.png"); 
+}
+
+#balathor:hover{
+  background-image: url("./portfolio/evil-book-hover.png");
+}
+
+#appear{
+  background-image: url("./portfolio/files.png"); 
+}
+
+#appear:hover{
+  background-image: url("./portfolio/files-hover.png");
 }
 
 .port-title{
   text-align: center;
-  width: 10vw;
+  width: 8vw;
 }
 
 :root {

@@ -35,7 +35,7 @@ function Home() {
       <div class="container d-flex align-items-left flex-column business-item">
         <div class="row">    
           <div class="col-lg-1 me-auto"></div>
-          <h2 class="col-lg-8 ms-auto">Fandom professionaly done</h2>
+          <h2 class="col-lg-8 ms-auto">Fandom professionally done</h2>
           <div class="col-lg-3 me-auto"></div>
         </div>
         <div class="row right">       

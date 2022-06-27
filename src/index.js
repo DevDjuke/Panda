@@ -8,7 +8,9 @@ import {
   Navigation,
   Portfolio,
   Home,
-  About
+  About,
+  Balathor,
+  BalathorIndex
 } from "./components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,6 +22,8 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/about" element={<About />} />
+      <Route path="/portfolio/balathor" element={<Balathor />} />
+      <Route path="/wiki/balathor" element={<BalathorIndex />} />
     </Routes>
   </Router>
   </React.StrictMode>

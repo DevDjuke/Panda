@@ -1,3 +1,4 @@
+import { render } from "@testing-library/react";
 import React from "react";
 import { TwitterTimelineEmbed} from 'react-twitter-embed';
 
@@ -8,16 +9,18 @@ function Portfolio() {
         <div class="row">
           <div class="col-lg-9 top">
             <div class="row mt-3">
-                <h5>Video Games</h5>
+              <h5>Video Games</h5>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-10 border-top"></div>
+              <div class="row">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-10 border-top"></div>
-                <div class="row">
-                  <div class="col-lg-1"></div>
-                  <div class="col-lg-2">
-                    <img class="port-img" src="../portfolio/cultist.png" alt="cult"></img>
-                    <h6 class="port-title">Cult</h6>
-                  </div>
+                <div class="col-lg-2">
+                  <a>
+                    <div class="port-img" id="cult"></div>
+                  </a>
+                  <h6 class="port-title">Cult</h6>
                 </div>
+              </div>
             </div>
             <div class="row mt-5">
                 <h5>Dungeons and Dragons</h5>
@@ -26,7 +29,9 @@ function Portfolio() {
                 <div class="row">
                   <div class="col-lg-1"></div>
                   <div class="col-lg-2">
-                    <img class="port-img" src="../portfolio/evil-book.png" alt="book"></img>
+                    <a href="/portfolio/balathor">
+                      <div class="port-img" id="balathor"></div>
+                    </a>
                     <h6 class="port-title">Balathor's Book of Beastly Beginnings</h6>
                   </div>
                 </div>
@@ -38,7 +43,9 @@ function Portfolio() {
                 <div class="row">
                   <div class="col-lg-1"></div>
                   <div class="col-lg-2">
-                    <img class="port-img" src="../portfolio/files.png" alt="book"></img>
+                  <a href="/portfolio/balathor">
+                      <div class="port-img" id="appear"></div>
+                    </a>
                     <h6 class="port-title">Appear</h6>
                   </div>
                 </div>
@@ -49,7 +56,8 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      </div>
+      
+    </div>
   );
 }
 
